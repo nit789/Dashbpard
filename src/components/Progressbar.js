@@ -39,7 +39,7 @@ const Progressbar = () => {
     if (typeof arr !== "undefined") {
       if (arr.length > 0) {
         const { Header, Card_Part1, Card_Part2 } = arr[0];
-        console.log("header",Header)
+        console.log("header iss",Header)
         setHeader(Header);
         setCardPart1(Card_Part1);
         setCardPart2(Card_Part2);
